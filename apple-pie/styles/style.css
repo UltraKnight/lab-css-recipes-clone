@@ -9,12 +9,18 @@ body {
 }
 
 .top {
-    position: relative;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-image: url("../images/apple-pie.jpg");
 }
 
-.logo {
-    width: 100%;
+.top-text {
+    font-size: 5em;
+    color: white;
 }
 
 .centered-text {
