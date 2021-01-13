@@ -21,6 +21,13 @@ body {
 .top-text {
     font-size: 5em;
     color: white;
+    transition: font-size 1s;
+}
+
+.top-text:hover {
+    font-size: 8em;
+    color: silver;
+    cursor: pointer;
 }
 
 .centered-text {
@@ -63,4 +70,12 @@ hr {
     .top {
         height: 40vh;
     }
+
+    .top-text {
+        font-size: 3em;
+    }
+}
+
+::selection {
+    background-color: lightblue;
 }
